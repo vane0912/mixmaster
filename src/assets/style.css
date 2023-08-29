@@ -17,8 +17,8 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      height: 100vh;
-      width: 100vw;
+      min-height: 100vh;
+      min-width: 100vw;
       background-color: #101E19;
     }
 }

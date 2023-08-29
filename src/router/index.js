@@ -26,11 +26,6 @@ const routes = [
     component: DrinkGenerator
   },
   {
-    path: '/MostPopular',
-    name: 'MostPopular',
-    component: MostPopular
-  },
-  {
     path: '/find-Drink',
     name: 'find-Drink',
     component: MostPopular
