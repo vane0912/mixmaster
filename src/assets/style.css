@@ -7,10 +7,7 @@
     h1, h2{
       font-family: 'Averia Serif Libre', cursive;
     }
-    h3{
-      font-family: 'Martel', serif;;
-    }
-    p{
+    p, h3{
       font-family: 'Mulish', sans-serif;
     }
     body, html, #app{
@@ -20,5 +17,9 @@
       min-height: 100vh;
       min-width: 100vw;
       background-color: #101E19;
+      overflow-x: hidden;
+    }
+    .bottom-border{
+      border-bottom: solid #FC9049 3px;
     }
 }

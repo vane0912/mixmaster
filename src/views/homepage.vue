@@ -1,10 +1,9 @@
 <template>
     <div class="w-full flex flex-col items-center">
-        <header>
-        <div class="max-w-6xl sm:mx-10">
-            <div class="relative flex justify-center">
+        <header class="max-w-6xl sm:mx-10">
+            <div class="relative">
                 <img class="object-cover h-[40vh] sm:w-full sm:h-full" src="../assets/images/bgHp1.png">
-                <div class="h-full bg-stronger-green/60 absolute bottom-0 rounded-sm p-8 flex items-center justify-evenly flex-col sm:w-full">
+                <div class="h-full bg-stronger-green/60 absolute bottom-0 p-8 flex items-center justify-evenly flex-col sm:w-full">
                     <div class="w-3/4 h-1/2 flex flex-col items-center justify-evenly">
                         <h1 class="text-backgrounds-salmon text-3xl font-bold text-center mb-5 lg:text-5xl lg:leading-[3.5rem]">Savor the Flavors: Find Irresistible Drink Recipes!</h1>
                         <Buttons @go-to="$router.push('/find-Drink')" buttontxt="Lets go!"></Buttons>
@@ -35,7 +34,6 @@
                     <img class="object-cover h-full w-full" src="../assets/images/mobile-images/celphone_3.png">
                 </div>
             </div>
-        </div>
     </header>
     <main class="w-full m-auto flex flex-col justify-center items-center">
         <div class="w-full bg-week-green flex flex-col items-center py-[5%] px-[15%]">
