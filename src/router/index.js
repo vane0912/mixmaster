@@ -3,7 +3,10 @@ import homepage from '@/views/homepage.vue'
 import nonAlcoholic from '../views/Non-alcoholic.vue'
 import Alcoholic from '../views/Alcoholic.vue'
 import DrinkGenerator from '../views/Drink-generator.vue'
-import MostPopular from '../views/Most-popular.vue'
+import SearchDrink from '../views/Search-drink.vue'
+import searchResults from '../views/searchResults.vue'
+import selectedDrink from '../views/selectedDrink.vue'
+
 const routes = [
   {
     path: '/',
@@ -28,7 +31,17 @@ const routes = [
   {
     path: '/find-Drink',
     name: 'find-Drink',
-    component: MostPopular
+    component: SearchDrink
+  },
+  {
+    path:'/searchResults/:id',
+    name: 'searchResults',
+    component: searchResults
+  },
+  {
+    path:'/:drinkName',
+    name: 'selected-drink',
+    component: selectedDrink
   }
 ]
 

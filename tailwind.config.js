@@ -13,6 +13,9 @@ module.exports = {
         'backgrounds-salmon': '#F4E8E2',
         'graytxt': '#2C2D26',
         'whitebg': '#FEFEFE'
+      },
+      backgroundImage: {
+        'search-result': "url('../assets/images/Search-Results/background.png')"
       }
     }
   },
